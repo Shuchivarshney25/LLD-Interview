@@ -1,6 +1,6 @@
-package LLDQues.ShoppingCart.model;
+package LLDQues.ShoppingCartSystem.model;
 
-import LLDQues.ShoppingCart.exception.CartException;
+import LLDQues.ShoppingCartSystem.exception.CartException;
 
 import java.util.HashMap;
 import java.util.Map;

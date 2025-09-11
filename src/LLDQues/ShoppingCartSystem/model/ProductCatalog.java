@@ -1,4 +1,4 @@
-package LLDQues.ShoppingCart.model;
+package LLDQues.ShoppingCartSystem.model;
 
 import java.util.ArrayList;
 import java.util.HashMap;

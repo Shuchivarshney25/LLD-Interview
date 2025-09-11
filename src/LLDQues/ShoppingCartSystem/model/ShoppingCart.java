@@ -1,4 +1,4 @@
-package LLDQues.ShoppingCart.model;
+package LLDQues.ShoppingCartSystem.model;
 
 public class ShoppingCart {
     private int cartId;

@@ -1,4 +1,4 @@
-package LLDQues.ShoppingCart.exception;
+package LLDQues.ShoppingCartSystem.exception;
 
 public class CartException extends Exception {
     public CartException(String message){

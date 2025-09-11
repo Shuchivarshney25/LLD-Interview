@@ -1,9 +1,9 @@
-package LLDQues.ShoppingCart;
+package LLDQues.ShoppingCartSystem;
 
-import LLDQues.ShoppingCart.exception.CartException;
-import LLDQues.ShoppingCart.model.Cart;
-import LLDQues.ShoppingCart.model.Product;
-import LLDQues.ShoppingCart.model.ProductCatalog;
+import LLDQues.ShoppingCartSystem.exception.CartException;
+import LLDQues.ShoppingCartSystem.model.Cart;
+import LLDQues.ShoppingCartSystem.model.Product;
+import LLDQues.ShoppingCartSystem.model.ProductCatalog;
 
 public class Driver {
     public static void main(String[] args) {
