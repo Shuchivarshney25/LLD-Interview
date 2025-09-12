@@ -6,7 +6,7 @@ import LLDQues.RestaurantManagementSystem.service.*;
 import java.util.Date;
 import java.util.List;
 
-public class RestaurantManagementApp {
+public class RestaurantManagementSystem {
     private CustomerService customerService;
     private MenuService menuService;
     private InventoryService inventoryService;
@@ -14,7 +14,7 @@ public class RestaurantManagementApp {
     private PaymentService paymentService;
     private ReservationService reservationService;
 
-    public RestaurantManagementApp(int totalTables) {
+    public RestaurantManagementSystem(int totalTables) {
         this.customerService = new CustomerService();
         this.menuService = new MenuService();
         this.inventoryService = new InventoryService();

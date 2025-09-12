@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class Driver {
     public static void main(String[] args) {
-        RestaurantManagementApp restaurant = new RestaurantManagementApp(20);
+        RestaurantManagementSystem restaurant = new RestaurantManagementSystem(20);
         // Add some menu items
         MenuItem pizza = new MenuItem(1, "Margherita Pizza", "Classic pizza with tomato and mozzarella", 12.99, "Main Course");
         MenuItem pasta = new MenuItem(2, "Spaghetti Carbonara", "Creamy pasta with bacon", 14.99, "Main Course");
