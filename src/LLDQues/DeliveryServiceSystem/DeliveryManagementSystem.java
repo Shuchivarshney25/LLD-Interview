@@ -1,5 +1,9 @@
-package LLDQues.DeliveryServiceSystem.model;
+package LLDQues.DeliveryServiceSystem;
 
+
+import LLDQues.DeliveryServiceSystem.model.DeliveryAgent;
+import LLDQues.DeliveryServiceSystem.model.Order;
+import LLDQues.DeliveryServiceSystem.model.OrderStatus;
 
 import java.util.*;
 

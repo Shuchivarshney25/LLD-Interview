@@ -1,7 +1,5 @@
 package LLDQues.DeliveryServiceSystem;
 
-import LLDQues.DeliveryServiceSystem.model.DeliveryManagementSystem;
-
 public class Driver {
     public DeliveryManagementSystem system;
 
