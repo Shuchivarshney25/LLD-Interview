@@ -1,6 +1,22 @@
 package LLDQues.RestaurantManagementSystem.model;
 
 public class MenuItem {
+
+    private int itemId;
+    private String name; //pav bhaji
+    private String description;
+    private double price;
+    private String category;
+    private boolean available;
+
+    public MenuItem(int itemId, String name, String description, double price, String category){
+        this.itemId = itemId;
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.category = category;
+        this.available = true;
+    }
     public int getItemId() {
         return itemId;
     }
@@ -49,21 +65,6 @@ public class MenuItem {
         this.available = available;
     }
 
-    private int itemId;
-    private String name;
-    private String description;
-    private double price;
-    private String category;
-    private boolean available;
-
-    public MenuItem(int itemId, String name, String description, double price, String category){
-        this.itemId = itemId;
-        this.name = name;
-        this.description = description;
-        this.price = price;
-        this.category = category;
-        this.available = true;
-    }
 
 
 
